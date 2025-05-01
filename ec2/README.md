@@ -56,3 +56,11 @@ terraform apply -auto-approve
 ```bash
 terraform -v
 ```
+
+### Step 6: Destroy the Deployment
+
+Destroy the configuration to remove the S3 bucket and associated resources by running:
+
+```bash
+terraform destroy -auto-approve
+```
