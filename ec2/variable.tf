@@ -4,8 +4,8 @@ variable "project" {
 }
 
 variable "owner" {
-  type = string
-  default = "jk"
+  type        = string
+  default     = "jk"
   description = "Owner of the Infrastructure"
 }
 
