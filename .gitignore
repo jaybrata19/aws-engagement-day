@@ -36,3 +36,6 @@ override.tf.json
 .terraformrc
 terraform.rc
 aws/.terraform.lock.hcl
+
+# Ignore Node Modules
+events-*/node_modules
