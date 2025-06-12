@@ -16,12 +16,12 @@ iam:
 
   serviceAccounts:
   - metadata:
-      name: cluster-autoscaler-mgl
+      name: cluster-autoscaler-jk
       namespace: kube-system
     wellKnownPolicies:
       autoScaler: true
   - metadata:
-      name: aws-load-balancer-controller-mgl
+      name: aws-load-balancer-controller-jk
       namespace: kube-system
     wellKnownPolicies:
       awsLoadBalancerController: true
