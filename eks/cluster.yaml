@@ -1,7 +1,8 @@
+apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: maurizio
+  name: aws-engagement-day-jk
   region: us-east-2
   version: "1.32"
 
@@ -38,7 +39,6 @@ addons:
     version: latest
  
 managedNodeGroups:
-
   - name: nodegroup-1
     spot: true
     instanceTypes: ["t2.medium"]
